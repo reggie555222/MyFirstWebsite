@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+     </head>
+    <body>
+      
+<header>
+        <nav>
+           <div style="position: fixed;">
+        <a href="home.html"><img src="images/finalLogo.png" id="navLogo"></a>
+            </div>
+     <div class="movelist">
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="#"> PORTFOLIO</a></li>
+            <li><a href="contact.html"> CONTACT</a></li>
+        </ul>
+             </div>
+        </nav>
+</header>
+
+<div class="container">
+    <div class="column-1">
+<h1>Contact Me</h1>
+<div class="contact-text">
+    <p><strong>Email:</strong> reggie.p.zaballa@gmail.com </p>
+    <p><strong>Phone:</strong> (+63) 935-910-9748 </p>
+    <p><strong>Address:</strong> Laguna, Philippines </p>
+    
+<div id="googleMap" style="width:40%;height:270px;">
+<script>
+    function myMap() {
+    var mapProp= {
+      center:new google.maps.LatLng(14.186975,121.124723),
+      zoom:10,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMmqEkW_7M_hJTqPqM6qEeT7y-_hieRtQ&callback=myMap"></script>
+
+</div>
+
+</div>
+
+    </div>
+    <div class="column-2">
+        <h2 class="letsChat"> <span><strong>Let's Chat</strong> </span></h2><br>
+        <div class="divForm">
+        <form action="#">
+
+            <p>
+            
+                <label class="name" style="color: rgb(132, 132, 132);">Your Name (required) <br>
+         <input type="text" name="urName" id="user-name">
+        </label>
+            </p>
+
+            <p>
+                <label class="email" style="color: rgb(132, 132, 132);">Your Email (required) 
+                <br>
+                <span>
+                <input type="text" name="urEmail" id="user-email">
+            </span>
+            </label>
+            </p>
+
+            <p>
+                <label class="message" style="color: rgb(132, 132, 132);">
+                    Your Message  
+                    <br>
+                   
+                    <span>
+                <textarea name="urMessage" name="urText" id="user-Message"cols="40" rows="8"></textarea>
+                </span>
+            </label>
+            </p>
+            <p>
+                <input type="submit" class="submitMessage">
+
+            </p>
+
+        </form>
+    </div>
+    </div>
+       
+
+</div>
+<footer>
+
+    <div id="footer1">
+      <p> YOU CAN ALSO CONTACT ME ON: </p>
+      <p>&copy; REGGIE ZABALLA 2024</p>
+    </div>
+  
+  
+  </footer>
+
+</body>
+</html>
